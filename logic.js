@@ -1,7 +1,7 @@
 let fetchedData;
 
 function fetchData() {
-    const url = "http://localhost:9001/random";
+    const url = "http://roll.austinmorales.dev:9001/random";
     return fetch(url)
         .then(res => res.json())
         .then(data => {
